@@ -6,7 +6,6 @@ example/.project
 example/.pydevproject
 .DS_Store
 
-# kbc datafolder
-data/
 tmp/
 venv/
+downloaded/
