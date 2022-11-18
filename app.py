@@ -13,7 +13,6 @@ st.markdown('''
 # Adds a table selection form to the sidebar of streamlit
 add_keboola_table_selection()
 if "extracted_file" not in st.session_state:
-    st.subheader('Interactive Table')
     st.write(
         "In order to use this app, you must have artifacts enabled in your project."
         ""
