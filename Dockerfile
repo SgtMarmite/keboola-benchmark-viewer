@@ -8,7 +8,7 @@ WORKDIR /code
 COPY requirements.txt .
 
 RUN apt update
-RUN apt install git
+RUN apt install git -y
 
 # install dependencies
 RUN pip install -r requirements.txt
