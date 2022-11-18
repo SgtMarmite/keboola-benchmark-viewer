@@ -7,6 +7,9 @@ WORKDIR /code
 # copy the dependencies file to the working directory
 COPY requirements.txt .
 
+RUN apt update
+RUN apt install git
+
 # install dependencies
 RUN pip install -r requirements.txt
 
