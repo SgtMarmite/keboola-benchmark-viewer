@@ -1,0 +1,8 @@
+spec:
+  name: keboola-benchmark-viewer
+  services:
+  - dockerfile_path: Dockerfile
+    git:
+      branch: main
+      repo_clone_url: https://github.com/SgtMarmite/keboola-benchmark-viewer.git
+    name: keboola-benchmark-viewer

@@ -1,0 +1,8 @@
+name: keboola-benchmark-viewer
+services:
+- dockerfile_path: Dockerfile
+  github:
+    branch: main
+    deploy_on_push: true
+    repo: SgtMarmite/keboola-benchmark-viewer
+  name: keboola-benchmark-viewer
