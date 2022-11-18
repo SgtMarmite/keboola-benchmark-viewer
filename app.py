@@ -15,7 +15,8 @@ add_keboola_table_selection()
 if "extracted_file" not in st.session_state:
     st.subheader('Interactive Table')
     st.write(
-        "This is a simple app to view results of Keboola Component Benchmark."
+        "In order to use this app, you must have artifacts enabled in your project."
+        ""
     )
 if "extracted_file" in st.session_state:
     render_stats()
